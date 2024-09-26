@@ -1,3 +1,4 @@
+import dagshub.auth
 import mlflow
 import logging
 from sklearn.ensemble import RandomForestRegressor
@@ -13,6 +14,7 @@ load_dotenv()
 # Fetch repo details from environment variables
 REPO_OWNER = os.getenv("REPO_OWNER")
 REPO_NAME = os.getenv("REPO_NAME")
+dagshub.auth.tokens.add_app_token("DAGSHUB_TOKEN")
 
 # Initialize DagsHub for MLflow integration
 dagshub.init(repo_owner=REPO_OWNER, repo_name=REPO_NAME, mlflow=True)
