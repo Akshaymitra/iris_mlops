@@ -20,3 +20,4 @@ seaborn==0.12.2
 # Optional: For testing (if you plan to add tests)
 pytest==7.2.0
 dagshub
+python-dotenv 
