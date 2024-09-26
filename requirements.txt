@@ -1,0 +1,21 @@
+# Data manipulation and analysis
+pandas==1.5.3
+
+# Machine Learning library
+scikit-learn==1.2.0
+
+# MLflow for tracking experiments and models
+mlflow==2.2.0
+
+# Optional: If you plan to use Jupyter notebooks for exploration
+jupyter==1.0.0
+
+# Optional: For data visualization (if needed)
+matplotlib==3.6.2
+seaborn==0.12.2
+
+# Optional: For environment management (if using virtual environments)
+#virtualenv==20.21.0
+
+# Optional: For testing (if you plan to add tests)
+pytest==7.2.0
